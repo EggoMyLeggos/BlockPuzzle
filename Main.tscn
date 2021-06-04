@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Another icon.tscn" type="PackedScene" id=1]
+[ext_resource path="res://you.tscn" type="PackedScene" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="you" parent="." instance=ExtResource( 2 )]
+position = Vector2( 114.756, 107.639 )
+
+[node name="Another icon" parent="." instance=ExtResource( 1 )]
+
+[node name="TextEdit" type="TextEdit" parent="."]
+margin_left = 79.2862
+margin_top = 22.6532
+margin_right = 164.286
+margin_bottom = 62.6532
+text = "This is you"
+__meta__ = {
+"_edit_use_anchors_": false
+}
